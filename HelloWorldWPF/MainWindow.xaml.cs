@@ -24,5 +24,17 @@ namespace HelloWorldWPF
         {
             InitializeComponent();
         }
+        
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            if (Button1.IsChecked == true)
+            {
+                MessageBox.Show("Yes.");
+            }
+            else if (Button2.IsChecked == true)
+            {
+                MessageBox.Show("No.");
+            }
+        }
     }
 }

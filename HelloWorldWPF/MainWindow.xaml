@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="500" Width="500">
     <Grid>
+        <TextBlock x:Name="MainPrompt" HorizontalAlignment="Center" Margin="0,112,0,0" TextWrapping="Wrap" Text="Which one do you prefer?" VerticalAlignment="Top"/>
+        <RadioButton x:Name="Button1" Content="apple" HorizontalAlignment="Left" Margin="114,189,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="Button2" Content="banana" HorizontalAlignment="Left" Margin="341,189,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.654,1.139"/>
+        <Button Content="Display" HorizontalAlignment="Center" VerticalAlignment="Center" RenderTransformOrigin="-0.294,0.102" Click="Button_Click"/>
 
     </Grid>
 </Window>
